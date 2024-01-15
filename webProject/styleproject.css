@@ -1,0 +1,106 @@
+body {
+  font-family: "Khmer os Bokor";
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 15px;
+  color: white;
+  text-align: left;
+}
+
+.toggle-btn {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+.nav-list li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.nav-list a:hover {
+  background-color: #c0c0c0;
+}
+
+.content {
+  padding: 20px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .nav-list {
+    display: block;
+  }
+
+  .nav-list li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+h1,
+u {
+  color: #0080ff;
+  font-family: "khmer os Bokor";
+  padding: 0;
+  margin-left: 360px;
+}
+h1:hover {
+  color: #ffb266;
+}
+u:hover {
+  color: #ffb266;
+}
+p {
+  width: 400px;
+}
+img {
+  padding: 0;
+  width: 700px;
+  height: 500px;
+  float: right;
+  border-radius: 10px;
+  box-shadow: 4px 5px 5px #333;
+}
+
+.search-container {
+  display: flex;
+  float: right;
+  padding: 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 0 4px 4px 0;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
